@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+<div class="blog">
+    <h2>Write Your Blog</h2>
+    <div class="blog-container first_after_nav">
+        <form id="blogForm">
+            <input type="text" id="blogTitle" placeholder="Enter Blog Title" required class="blogTitle">
+            <textarea id="blogContent" placeholder="Write your blog here..." required class="blogContent"
+                rows="20"></textarea>
+            <button type="submit" class="postBlog">POST BLOG</button>
+        </form>
+
+    </div>
+
+    <h2>Recent Blogs</h2>
+    <div id="blogPosts">
+
+    </div>
+</div>
+<%- include('partials/footer.ejs') %>

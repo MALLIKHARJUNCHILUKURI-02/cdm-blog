@@ -1,0 +1,17 @@
+<%- include('partials/header.ejs') %>
+        <!-- Login-->
+
+
+        <div class="login first_after_nav">
+            <h1>LOGIN</h1>
+            <small>If you don't have an account, <a href="signup">Click here to Sign Up</a></small>
+
+            <form action="login" class="login_form" method="post">
+                <label for="username" class="form-box">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required class="form-box">
+                <label for="password" class="form-box">Password:</label>
+                <input type="text" name="password" id="password" placeholder="Enter your password" required class="form-box">
+                <input type="submit" value="LOGIN" class="submit">
+            </form>
+        </div>
+        <%- include('partials/footer.ejs') %>
