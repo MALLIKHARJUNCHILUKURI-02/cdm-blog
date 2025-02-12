@@ -69,5 +69,5 @@ This project is for educational purposes only.
 
 ## 📬 Contact
 For any queries, feel free to reach out:
-- **Your Name** - [Your GitHub](https://github.com/yourusername)
+- **Your Name** - https://github.com/MALLIKHARJUNCHILUKURI-02
 - **Email:** mkreddychilukuri075@gmail.com
